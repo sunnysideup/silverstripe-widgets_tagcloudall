@@ -1,6 +1,7 @@
-###############################################
 widgets Tag Cloud All
-###############################################
+================================================================================
+
+An improvement on the standard tag cloud widget
 
 Maintainer Contact
 -----------------------------------------------
@@ -8,12 +9,20 @@ nicolaas [at] sunnysideup.co.nz
 
 Requirements
 -----------------------------------------------
-SS 2.3+
+see composer.json
 
 
 Documentation
 -----------------------------------------------
-an improvement on the standard tag cloud widget
+Please contact author for more details.
+
+Any bug reports and/or feature requests will be
+looked at
+
+We are also very happy to provide personalised support
+for this module in exchange for a small donation.
+
+
 
 Installation Instructions
 -----------------------------------------------
