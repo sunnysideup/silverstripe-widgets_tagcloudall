@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="TagCloudAll" namespace="" name="TagCloudAll" abstract="false" final="false" start="3" end="138">
+  <file path="/var/www/_modules/widgets_tagcloudall/trunk/docs/en/phpdox/../../.." file="TagCloudAll.php" realpath="/var/www/_modules/widgets_tagcloudall/trunk/TagCloudAll.php" size="3640" time="2015-03-14T10:22:21+13:00" unixtime="1426281741" sha1="9d4c8655a98b81eb0ee8962d9c9bad7714e78e8a" relative="TagCloudAll.php"/>
+  <extends full="Widget" namespace="" name="Widget"/>
+  <member name="db" type="array" visibility="public" line="4"/>
+  <member name="has_one" type="array" visibility="public" line="10"/>
+  <member name="has_many" type="array" visibility="public" line="12"/>
+  <member name="many_many" type="array" visibility="public" line="14"/>
+  <member name="belongs_many_many" type="array" visibility="public" line="16"/>
+  <member name="defaults" type="array" visibility="public" line="18"/>
+  <member name="cmsTitle" type="string" default="&quot;Tag Cloud Improved&quot;" visibility="public" line="24"/>
+  <member name="description" type="string" default="&quot;Shows a tag cloud of tags on your blog.&quot;" visibility="public" line="26"/>
+  <member name="popularities" type="array" visibility="public" line="28"/>
+  <method name="getCMSFields" start="30" end="36" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="Title" start="38" end="40" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="TagsCollection" start="42" end="109" abstract="false" final="false" static="false" visibility="public">
+    <inline>
+      <comment value="getting the count into key =&gt; value map" line="56"/>
+      <todo value="move some or all of the sorts to the database for more efficiency" line="63"/>
+      <comment value="sort by popularity" line="65"/>
+      <comment value="Work out the number of different sizes" line="76"/>
+      <comment value="If there are more frequencies then buckets, divide frequencies into buckets" line="79"/>
+    </inline>
+  </method>
+  <method name="column_sort_by_popularity" start="117" end="125" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Helper method to compare 2 Vars to work out the results."/>
+      <param type="mixed"/>
+      <param type="mixed"/>
+      <return type="int"/>
+    </docblock>
+    <parameter name="a" byreference="false" type="{unknown}"/>
+    <parameter name="b" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="natksort" start="127" end="137" abstract="false" final="false" static="false" visibility="private">
+    <parameter name="aToBeSorted" byreference="true" type="{unknown}"/>
+  </method>
+</class>

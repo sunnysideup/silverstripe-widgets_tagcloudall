@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/widgets_tagcloudall/trunk">
+  <namespace name="">
+    <class name="TagCloudAll" src="TagCloudAll.php" xml="classes/TagCloudAll.xml"/>
+  </namespace>
+</index>
