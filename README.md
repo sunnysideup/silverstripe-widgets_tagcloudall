@@ -1,41 +1,72 @@
-widgets Tag Cloud All
-================================================================================
+# Silverstripe widgets tagcloudall module
+[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-widgets_tagcloudall.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-widgets_tagcloudall)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-widgets_tagcloudall/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-widgets_tagcloudall/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-widgets_tagcloudall/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-widgets_tagcloudall?branch=master)
+![helpfulrobot](https://helpfulrobot.io/sunnysideup/widgets_tagcloudall/badge)
 
-An improvement on the standard tag cloud widget
-
-Maintainer Contact
------------------------------------------------
-nicolaas [at] sunnysideup.co.nz
-
-Requirements
------------------------------------------------
-see composer.json
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/widgets_tagcloudall/version)](https://packagist.org/packages/sunnysideup/widgets_tagcloudall)
+[![License](https://poser.pugx.org/sunnysideup/widgets_tagcloudall/license)](https://packagist.org/packages/sunnysideup/widgets_tagcloudall)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/widgets_tagcloudall/d/monthly)](https://packagist.org/packages/sunnysideup/widgets_tagcloudall)
 
 
-Documentation
------------------------------------------------
-Please contact author for more details.
-
-Any bug reports and/or feature requests will be
-looked at
-
-We are also very happy to provide personalised support
-for this module in exchange for a small donation.
+## Documentation
 
 
 
-Installation Instructions
------------------------------------------------
-1. Find out how to add widget to SS and add widget as per usual.
-2. Review configs and add entries to mysite/_config/config.yml
-(or similar) as necessary.
-In the _config/ folder of this module
-you can usually find some examples of config options (if any).
+ * [Developer Docs](docs/en/INDEX.md)
+ * [User Guide](docs/en/userguide.md)
+ * [API](http://ssmods.com/apis/widgets_tagcloudall/docs/en/api/)
 
-
-Usage Overview
------------------------------------------------
+## Requirements
 
 
 
+see [composer.json](composer.json) for details
 
+### Suggested Modules
+
+
+
+see [composer.json](composer.json) for details
+
+
+## Installation
+
+
+```
+composer require sunnysideup/widgets_tagcloudall
+```
+
+### Configuration
+
+
+
+In the `_config` folder you will find the `widgets_tagcloudall.yml.example`
+file that shows options for the configuration of this module.
+
+We recommend that you:
+
+  1. copy these `widgets_tagcloudall.yml.example` files into your
+`mysite/_config` folder
+  2. remove the .example extension
+  3. delete the lines you not care about, and
+  4. adjust the configurations that you would like to use.
+
+
+## Contributing
+
+
+
+We welcome any contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Paid assistance
+
+
+
+You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz)
+
+## Author
+
+
+
+Sunny Side Up Ltd.
